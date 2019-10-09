@@ -13,6 +13,7 @@ import { APP_ROUTES } from './app.routes';
 
 //Modulos
 import { PagesModule } from './pages/pages.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -20,13 +21,14 @@ import { PagesModule } from './pages/pages.module';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent,
+    RegisterComponent
   ],
   imports: [
     APP_ROUTES,
     BrowserModule,
     AppRoutingModule,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
