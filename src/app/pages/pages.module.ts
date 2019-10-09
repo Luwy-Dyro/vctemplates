@@ -5,6 +5,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 import { FormsModule } from '@angular/forms';
 //Module
@@ -26,7 +27,8 @@ import { ChartsModule } from 'ng2-charts';
         Graficas1Component,
         ProgressComponent,
         IncrementadorComponent,
-        GraficodonaComponent
+        GraficodonaComponent,
+        AccountSettingsComponent
 
     ],
     exports: [
