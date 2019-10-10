@@ -25,21 +25,23 @@
         <div class="card">
             <div class="card-body">
 
-                <!-- <div class="input-group">
-                        <div class="input-group-append">
-                                <button class="btn btn-primary" type="button" (click)="cambiarValor(-5)"><i class="mdi mdi-minus "></i> </button>
-                            </div>
+                <!-- 
+                <div class="input-group">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" (click)="cambiarValor(-5)"><i class="mdi mdi-minus "></i> </button>
+                    </div>
                     <input type="text" name="progreso" class="form-control" placeholder="Recipient's username" [(ngModel)]="progreso"> 
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="button" (click)="cambiarValor(+5)"><i class="mdi mdi-plus"></i>   </button>
                     </div>
-                </div> -->
+                </div>
+             -->
                 <app-incrementador (actualizavalor)="progreso1 =  $event" nombre="ProgressAzul" [progreso]="progreso1"></app-incrementador>
             </div>
         </div>
     </div>
 
-
+ 
     <div class="col-md-6">
         <div class="card">
             <div class="card-body">
